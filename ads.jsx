@@ -1,7 +1,7 @@
 function Advertise() {
     return (
         <div className="advertise">
-            <img src="ads.PNG" alt="" width={"100%"} />
+            {/* <img src="ads.PNG" alt="" width={"100%"} /> */}
         </div>
     )
 }

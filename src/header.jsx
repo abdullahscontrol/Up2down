@@ -9,10 +9,11 @@ const someData = [
 function Header() {
     return (
         <div className="koyona">
-            <h1>Koyona<span id="quest">!</span></h1>
+            <h1>Cliphub<span id="quest">!</span></h1>
             <div className="course-name">
-                Javascript
+                Download and read
             </div>
+
         </div>
     )
 }

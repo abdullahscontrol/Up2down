@@ -5,7 +5,7 @@ function App() {
   return (
     <div>
       <Header />
-      <Advertise />
+      {/* <Advertise /> */}
       <Topic />
     </div>
   )

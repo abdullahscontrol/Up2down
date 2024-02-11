@@ -1,12 +1,13 @@
 :root {
-  --color-background: rgb(86, 1, 97);
+  --color-background: rgb(11, 75, 5);
+  --color-headings: rgb(105, 7, 12);
   --color-light: rgb(255, 255, 255);
 }
 
 body {
   /* overflow-y: hidden; */
   /* overflow-y: hidden; */
-  margin-top: 8rem;
+  margin-top: 5.5rem;
 }
 
 .koyona {
@@ -22,13 +23,16 @@ body {
   padding-left: 1rem;
   color: var(--color-background);
   font-family: cursive;
+  margin: 0;
+  padding: 5px;
 }
 
 .koyona .course-name {
   background: var(--color-background);
   color: var(--color-light);
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   padding: 5px;
+  font-family: monospace;
 
 }
 
@@ -36,15 +40,8 @@ body {
   font-style: italic;
 }
 
-.advertise {
-  width: 100%;
-  height: 20vh;
-  overflow: hidden;
-}
 
 .topic {
-  border: 3px solid red;
-  color: var(--color-background);
   font-size: 1.3rem;
   text-align: justify;
   font-family: system-ui, -apple-system,
@@ -53,15 +50,21 @@ body {
     'Helvetica Neue', sans-serif;
 }
 
-.buttons {
-  display: flex;
-  justify-content: space-between;
-  background: var(--color-background);
-  color: var(--color-light);
-  position: fixed;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  font-size: 1.3rem;
-  padding: 5px;
+.topic-heading {
+  color: var(--color-headings);
+  font-size: 1.7rem;
+  text-align: left;
+  font-weight: 650;
+
+}
+
+.topic-media {
+  width: 100%;
+  height: 20vh;
+  overflow: hidden;
+  border: 3px solid;
+}
+
+.topic-media img {
+  width: 100%;
 }
