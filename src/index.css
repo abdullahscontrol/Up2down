@@ -1,13 +1,47 @@
 :root {
-  --color-background: rgb(11, 75, 5);
-  --color-headings: rgb(105, 7, 12);
-  --color-light: rgb(255, 255, 255);
+  --background: rgb(28, 2, 78);
+  --text: #ffffff;
+  --link: rgb(114, 3, 3);
 }
 
 body {
-  /* overflow-y: hidden; */
-  /* overflow-y: hidden; */
+  background: var(--background);
+  color: var(--text);
   margin-top: 5.5rem;
+}
+
+.edge {
+  /* background: rgb(241, 237, 237); */
+  width: 100%;
+}
+
+#button {
+  background: var(--link);
+  border: none;
+  outline: none;
+  border-radius: 1rem;
+  padding: .7rem;
+  color: var(--text);
+  text-decoration: none;
+}
+
+video {
+  border-radius: 1rem;
+  background: var(--background);
+  width: 100%;
+  /* padding: 1rem; */
+}
+
+.edge-name {
+  display: flex;
+  justify-content: space-between;
+  padding-top: .7rem;
+  /* /* padding-bottom: .5rem; */
+}
+
+.edge-name {
+  font-size: 1.2rem;
+  text-align: left;
 }
 
 .koyona {
@@ -15,13 +49,13 @@ body {
   left: 0;
   right: 0;
   top: 0;
-  z-index: 1;
-  background: var(--color-light);
+  z-index: 9999;
+  background-color: var(--background);
 }
 
-.koyona h1 {
+h1 {
   padding-left: 1rem;
-  color: var(--color-background);
+  color: rgb(240, 166, 6);
   font-family: cursive;
   margin: 0;
   padding: 5px;
