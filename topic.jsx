@@ -4,41 +4,31 @@ const edgeData =
 }
 const readData = [];
 
-
-
-
-
 import Header from "./src/header";
 function Topic() {
     return (
         <div className="topic">
-            <Edge />
-            <Edge />
-            <Edge />
+            <Edge edge="banana.mp4" name="Change your life: Andrew Tate" down="001-m.mp4" />
+            {/* <Edge edge="001-m.mp4" name="Man of purpose: Andrew Tate" down="001-m.mp4" /> */}
+            {/* <Edge edge="banana.mp4" name="Change your life: Andrew Tate" down="001-m.mp4" /> */}
             <Read />
-            <Read />
-            <Read />
+
         </div>
     )
 }
-function Edge() {
+function Edge(Props) {
     return (
         <div>
             <div className="edge">
                 <video controls >
-                    <source src="banana.mp4" type="video/mp4" />
+                    <source src={Props.edge} type="video/mp4" />
                 </video>
                 <div className="edge-name">
-                    <div>Change your life: Andrew Tate</div>
+                    <div>{Props.name}</div>
                     <div className="link">
-                        <a href="001-m.mp4" id="button" download>Download</a>
+                        <a href={Props.down} id="button" download>Download</a>
                     </div>
                 </div>
-                {/* <div>
-                    <a href="https://www.youtube.com/watch?v=Oe7VKxFIrJA&pp=ygUcYW5kcmV3IHRhdGUgY2hhbmdlIHlvdXIgbGlmZQ%3D%3D" target="_blank" rel="noreferrer">Watch full video here</a>
-                    <br />
-                    <br />
-                </div> */}
             </div>
         </div>
     )
