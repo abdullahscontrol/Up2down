@@ -181,5 +181,14 @@
  }
 
  h2 {
+   color: black;
+ }
+
+ #link:focus {
+   border-bottom: 3px solid red;
    color: red;
+ }
+
+ .audio {
+   padding-top: 1rem;
  }

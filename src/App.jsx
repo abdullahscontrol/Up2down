@@ -3,6 +3,7 @@ import { Routes, Route } from "react-router-dom"
 import Navbar from "./components/Navbar"
 import Home from "./components/Home"
 import About from "./components/About"
+import Audio from "./components/Audio"
 import Header from "./header"
 // import Advertise from "../ads"
 // import Topic from "../topic"
@@ -14,6 +15,7 @@ function App() {
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/audio" element={<Audio />} />
           <Route path="/about" element={<About />} />
         </Routes>
       </BrowserRouter>

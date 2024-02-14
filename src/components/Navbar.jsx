@@ -4,8 +4,9 @@ import { Link } from "react-router-dom";
 function Navbar() {
     return (
         <div className="navbar">
-            <Link to="/">Read</Link>
-            <Link to="/About">Watch</Link>
+            <Link to="/" id="link">Read</Link>
+            <Link to="/Audio" id="link">Audio</Link>
+            <Link to="/About" id="link">Watch</Link>
         </div>
     )
 }
