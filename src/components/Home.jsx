@@ -1,8 +1,8 @@
 const courseData = [
     {
         image: "006-img.jpg",
-        title: "Amfanin Tumatir",
-        article: "Aljazar: wato karas /n Yana daga ciki "
+        title: "Amfanin Karas",
+        article: "Aljazar: wato karas \n Yana daga ciki "
     },
         {
         image: "001-img.jpg",
