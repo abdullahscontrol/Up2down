@@ -189,6 +189,40 @@
    color: red;
  }
 
- .audio {
+
+.audio {
    padding-top: 1rem;
+   color: var(--background);
+ }
+
+
+ #music-logo {
+   width: 100%;
+
+   /* height: 20vh; */
+ }
+
+ #music {
+   border: 3px solid var(--background);
+   border-radius: 100rem;
+ }
+
+ .content {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   /* border: 3px solid var(--color-another); */
+ }
+
+ #download-icon {
+   border: 3px solid var(--background);
+   width: 3rem;
+   height: 3rem;
+   border-radius: 100%;
+ }
+
+ .music .title {
+   font-size: 1.7rem;
+   font-weight: 600;
+   padding: .3rem;
  }
