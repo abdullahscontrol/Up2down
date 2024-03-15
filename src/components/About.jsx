@@ -35,7 +35,7 @@ function Edge(Props) {
                 <div className="edge-name">
                     <div>{Props.edgeObj.title}</div>
                     <div className="link">
-                        <a href={Props.down} id="button" download>Download</a>
+                        <a href={Props.down} id="button" download> <a href="https://sampugly.net/4/7224175"></a> Download</a>
                     </div>
                 </div>
             </div>
