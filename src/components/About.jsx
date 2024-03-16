@@ -2,7 +2,8 @@
 const edgeData = [
     {
         content: "001-vid.mp4",
-        title: "The Earth: Bill Gate"
+        title: "The Earth: Bill Gate",
+     down:"001-vid.mp4"
     },
     {
         content: "002-vid.mp4",
@@ -35,7 +36,7 @@ function Edge(Props) {
                 <div className="edge-name">
                     <div>{Props.edgeObj.title}</div>
                     <div className="link">
-                        <a href={Props.down} id="button" download> Download</a>
+                        <a href={Props.edgeObj.down} id="button" download> Download</a>
                     </div>
                 </div>
             </div>
