@@ -3,18 +3,18 @@
 const edgeData = [
     {
         content: "ggg.mp4",
-        title: "The Earth: Bill Gate",
+        title: "Make me cum",
      down:"ggg.mp4"
     },
     {
         content: "ggg.mp4",
-        title: "I can`t Promise you",
+        title: "Make me cum",
      down:"ggg.mp4"
         
     },
     {
         content: "ggg.mp4",
-        title: "The Earth: Bill Gate",
+        title: "Make me cum",
      down:"ggg.mp4"
         
     }
