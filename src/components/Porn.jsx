@@ -2,7 +2,7 @@
 
 const edgeData = [
     {
-        content: "001-vid.mp4",
+        content: "ggg.mp4",
         title: "The Earth: Bill Gate",
      down:"001-vid.mp4"
     },
