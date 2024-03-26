@@ -49,7 +49,15 @@ export function Article() {
             <ul>
                 <li>Idan aka dafa ganyensa aka sha yana wanke koda ya kara mata lafiya </li>
                 <li>Yana kasha kwayoyin cuta dake cikin hanji  </li>
-                <li>Idan aka nika karasa aka matse ruwansa aka sha yana maganin kuragen da ke cikin hanji mutum </li>
+                <li>Idan aka nika karasa aka matse ruwansa aka sha yana maganin kuragen da ke cikin hanjin mutum </li>
+                <li>Yana karawa fatar mutum lafiya tare da magance zafin hasken rana da ke cutar da fata </li>
+<li>	Karas na kunshe da wasu sinadaran da suke daidai ta sukari a jikin dan Adam </li>
+                <li>	Karas na magance tsutsar ciki da magwas sannan karas yana maganin sanyi da tari </li>
+                <li>Yana taimakawa wajen narkar da abinci da wuri a cikin dan Adam  </li>
+                <li>	Yana hana zafin ciki tare da wanke mafitsara da matsarmama </li>
+                <li>	Yana maganin tsakuwa ta cikin matsarmama </li>
+                <li>yana maganin ciwon hanta idan ana shan ruwansa da yawa</li>
+                
             </ul>
         </div>
     )
